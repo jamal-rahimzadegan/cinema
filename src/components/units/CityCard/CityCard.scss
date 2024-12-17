@@ -1,0 +1,13 @@
+@import "src/assets/styles/global/variables";
+
+.city-card {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	padding: 10px 0;
+	border-bottom: 2.2px $white solid;
+
+	&__title {
+		margin-inline-start: 5px;
+	}
+}

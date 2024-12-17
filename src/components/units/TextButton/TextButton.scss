@@ -1,0 +1,28 @@
+.button-container {
+	display: flex;
+	width: 100%;
+}
+.button-container--center {
+	justify-content: center;
+}
+.button-container--right {
+	justify-content: flex-start;
+}
+.button-container--left {
+	justify-content: flex-end;
+}
+.button {
+	background-color: #009777;
+	//padding: 10px 25px;
+	border-radius: 100px;
+	box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+}
+.button--bold {
+	font-weight: bold;
+}
+.button--medium-font {
+	font-size: inherit;
+}
+.button--small-font {
+	font-size: 12px;
+}

@@ -1,0 +1,25 @@
+.search-bar {
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+
+	&__input {
+		flex: 0.99;
+	}
+
+	&__select {
+		padding: 10px 0;
+	}
+
+	&__icon {
+		position: absolute;
+		top: 9px;
+		right: 8px;
+		background-color: white;
+	}
+}
+
+//overflow: hidden

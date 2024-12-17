@@ -1,0 +1,18 @@
+.section {
+	position: relative;
+	padding: 0 10px;
+}
+.section--inline {
+	display: flex;
+}
+.section--form {
+	padding: 0 30px;
+}
+.section--description {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.section--wrap {
+	flex-wrap: wrap;
+}

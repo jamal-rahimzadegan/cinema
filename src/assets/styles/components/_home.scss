@@ -1,0 +1,19 @@
+.home {
+	padding: 10px;
+
+	&__chunk-film {
+		overflow-x: hidden;
+		overflow-y: auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	&__film-list-wrapper {
+		overflow: hidden;
+		display: grid;
+		align-items: center;
+		justify-content: space-between;
+		grid-template-columns: repeat(auto-fit, 98px);
+		grid-gap: 3px;
+	}
+}

@@ -1,0 +1,15 @@
+@import "src/assets/styles/global/variables";
+
+.message-card-wrapper {
+	background-color: $dark-bg;
+	border-radius: 5px;
+}
+.message-card-wrapper--primary {
+	background-color: $dark-bg;
+}
+.message-card-wrapper--accent {
+	background-color: $white;
+}
+.message-card-wrapper--disabled {
+	background-color: $white;
+}

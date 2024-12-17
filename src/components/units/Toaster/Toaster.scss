@@ -1,0 +1,31 @@
+.toaster-wrapper {
+	position: fixed;
+	width: 50%;
+	background-color: #343434;
+	visibility: hidden;
+	right: calc(50% - 25%);
+	z-index: 1000002;
+	border-radius: 5px;
+	padding: 8px;
+	transition-property: top, bottom;
+	transition-duration: 0.1s;
+	transition-timing-function: ease-in-out;
+}
+
+.toaster-wrapper--from-top {
+	top: 0;
+}
+
+.toaster-wrapper--from-bottom {
+	bottom: 0;
+}
+
+.toaster-wrapper--from-bottom.toaster-wrapper--show {
+	visibility: visible;
+	bottom: 60px;
+}
+
+.toaster-wrapper--from-top.toaster-wrapper--show {
+	visibility: visible;
+	top: 60px;
+}

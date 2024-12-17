@@ -1,0 +1,28 @@
+.fixed-button {
+	position: fixed;
+	bottom: 20px;
+	left: 10px;
+	border-radius: 50px;
+	background-color: #f2432e;
+	padding: 15px 0;
+	min-width: 45%;
+}
+.fixed-button--right-align {
+	left: auto;
+	right: 10px;
+}
+.fixed-button--center-align {
+	left: auto;
+	right: 50%;
+	transform: translate(50%, 0);
+}
+.fixed-button--accent {
+	background-color: #4d4d4d;
+}
+.fixed-button--primary {
+	background-color: #00a551;
+}
+.fixed-button--full-width {
+	width: calc(100% - 20px);
+	right: 10px;
+}

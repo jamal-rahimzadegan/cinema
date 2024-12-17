@@ -1,0 +1,214 @@
+/* this is css document for cinema sprite */
+
+.sprite {
+	background: url("../../../assets/img/sprite_cinema.png") no-repeat -95px -19px;
+	background-size: 400px 275px;
+	display: block;
+}
+
+.sprite--movie {
+	background-position: -1px -1px;
+	width: 14px;
+	height: 14px;
+}
+
+.sprite--cinema {
+	background-position: -16px -1px;
+	width: 15px;
+	height: 19px;
+}
+
+.sprite--date {
+	background-position: -32px -1px;
+	width: 14px;
+	height: 16px;
+}
+
+.sprite--time {
+	background-position: -47px -1px;
+	width: 17px;
+	height: 15px;
+}
+
+.sprite--price {
+	background-position: -64px -1px;
+	width: 15px;
+	height: 12px;
+}
+
+.sprite--final-price {
+	background-position: -81px -1px;
+	width: 15px;
+	height: 14px;
+}
+
+.sprite--my-tickets {
+	background-position: -97px -1px;
+	width: 14px;
+	height: 18px;
+}
+
+.sprite--next-steps {
+	background-position: -1px -20px;
+	width: 18px;
+	height: 18px;
+}
+
+.sprite--current-step {
+	background-position: -20px -20px;
+	width: 18px;
+	height: 20px;
+}
+
+.sprite--completed-step {
+	background-position: -39px -20px;
+	width: 18px;
+	height: 20px;
+}
+
+.sprite--unselected {
+	background-position: -58px -20px;
+	width: 18px;
+	height: 18px;
+}
+
+.sprite--selected {
+	background-position: -77px -20px;
+	width: 18px;
+	height: 18px;
+}
+
+.sprite--search {
+	background-position: -95px -19px;
+	width: 20px;
+	height: 18px;
+}
+
+.sprite--share-white {
+	background-position: -1px -40px;
+	width: 17px;
+	height: 18px;
+}
+
+.sprite--share-green {
+	background-position: -1px -59px;
+	width: 17px;
+	height: 18px;
+}
+
+.sprite--close {
+	background-position: -18px -40px;
+	width: 14px;
+	height: 14px;
+}
+
+.sprite--back {
+	background-position: -35px -40px;
+	width: 8px;
+	height: 15px;
+}
+
+.sprite--close-detail {
+	background-position: -62px -42px;
+	width: 11px;
+	height: 7px;
+}
+
+.sprite--open-detail {
+	background-position: -62px -52px;
+	width: 11px;
+	height: 7px;
+}
+
+.sprite--info {
+	background-position: -75px -40px;
+	width: 22px;
+	height: 22px;
+}
+
+.sprite--cancel {
+	background-position: -98px -40px;
+	width: 17px;
+	height: 16px;
+}
+
+.sprite--cinema-dark {
+	background-position: -19px -55px;
+	width: 11px;
+	height: 13px;
+}
+
+.sprite--time-dark {
+	background-position: -32px -55px;
+	width: 12px;
+	height: 12px;
+}
+
+.sprite--drop-down {
+	background-position: -49px -52px;
+	width: 11px;
+	height: 6px;
+}
+
+.sprite--drop-up {
+	background-position: -49px -43px;
+	width: 11px;
+	height: 6px;
+}
+
+.sprite--cinema-curtain {
+	background-position: -2px -78px;
+	width: 281px;
+	height: 54px;
+}
+
+.sprite--successful-purchase {
+	background-position: -1px -134px;
+	width: 140px;
+	height: 140px;
+}
+
+.sprite--failed-purchase {
+	background-position: -142px -134px;
+	width: 140px;
+	height: 140px;
+}
+
+.sprite--small-marker {
+	background-position: -19px -55px;
+	width: 11px;
+	height: 13px;
+}
+
+.sprite--big-marker {
+	background-position: -16px -1px;
+	width: 16px;
+	height: 19px;
+}
+
+.sprite--right-arrow-right-align {
+	position: absolute;
+	right: 30px;
+	top: 0;
+}
+.sprite--center-align {
+	margin: auto;
+}
+.sprite--right-align {
+	margin-left: auto;
+}
+.sprite--left-align {
+	margin-right: auto;
+}
+
+.sprite--curtain-with-text {
+	background-position: -115px -1px;
+	width: 281px;
+	height: 54px;
+}
+
+.sprite--simple-curtain {
+	background-position: -1px -106px;
+	width: 360px;
+	height: 25px;
+}

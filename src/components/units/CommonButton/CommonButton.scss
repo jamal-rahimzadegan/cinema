@@ -1,0 +1,13 @@
+.common-button {
+	border-radius: 5px;
+	border: 1px dashed darkgrey;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.common-button__text {
+	line-height: 35px;
+	margin-right: 5px;
+}

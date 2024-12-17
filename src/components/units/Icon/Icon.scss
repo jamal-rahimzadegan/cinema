@@ -1,0 +1,38 @@
+.icon {
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.icon--edit {
+	width: 25px;
+	height: 25px;
+	margin-right: auto;
+	background-image: url("../../../assets/edit-13.svg");
+}
+.icon--delete {
+	width: 25px;
+	height: 25px;
+	margin-right: auto;
+	background-image: url("../../../assets/delete.svg");
+}
+.icon--back {
+	width: 15px;
+	height: 15px;
+	background-image: url("../../../assets/back-10.svg");
+}
+.icon--whatsapp {
+	width: 70px;
+	height: 70px;
+	background-image: url("../../../assets/whatsapp-40.svg");
+}
+.icon--download {
+	width: 55px;
+	height: 55px;
+	background-image: url("../../../assets/download-25.svg");
+	background-color: #f2432e;
+	border-radius: 60px;
+}
+.icon--add {
+	width: 20px;
+	height: 20px;
+	background-image: url("../../../assets/plus-18.svg");
+}

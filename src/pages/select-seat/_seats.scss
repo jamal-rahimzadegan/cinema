@@ -1,0 +1,148 @@
+.seats {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+	padding: 5px;
+	flex-direction: column;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+	-webkit-tap-highlight-color: transparent; // for the black stink in ios
+	border-radius: 0 0 10px 10px;
+}
+
+.seats_modal_header {
+	// padding: 2rem;
+	color: #0d0d0d;
+	background-color: blue;
+}
+
+.seats_modal_content {
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal_actions {
+	padding: 1rem;
+}
+
+.modal_actionsـbutton {
+	width: 100%;
+	color: rgba(0, 0, 0, 0.75);
+	text-transform: uppercase;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 2rem;
+	padding: 0.5rem 1rem;
+	background-color: #fff;
+	transition: transform 0.1s ease;
+}
+
+.modal_actionsـbutton:focus {
+	outline: none;
+}
+
+.modal_actionsـbutton:active {
+	transform: scale(0.95);
+}
+
+.seats_backdrop {
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.9);
+	position: absolute;
+}
+
+.seats_dialog {
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+	border-radius: 0.5rem;
+	width: 90%;
+	height: 90%;
+	display: flex;
+	background-color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	flex-direction: column;
+	padding: 1rem;
+	text-align: center;
+	z-index: 1000;
+	transform: translate(-50%, -50%);
+}
+
+.seats_dialog_exit-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-color: transparent;
+	border: none;
+	padding: 1rem;
+	font-size: 1.5rem;
+}
+
+.seats_dialog_exit-button:focus {
+	outline: none;
+}
+
+.seats_dialog_exit-button:active {
+	transform: scale(0.95);
+}
+
+.react-transform-component,
+.react-transform-element {
+	width: 100%;
+}
+
+.seats_block {
+	top: 10%;
+	background: #fff;
+	bottom: 15%;
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+
+.seats_block_header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.cancel-button {
+	width: 100px;
+	margin: 10px auto;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	color: #e64225;
+	background-color: #f7f7f7;
+	font-size: 11px;
+	border-radius: 7px;
+	padding: 8px;
+}
+
+//---seat-guide-----------------------------------
+.seat-guide {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	width: 100%;
+
+	img {
+		height: 30px;
+		width: 30px;
+		margin-bottom: 5px;
+	}
+
+	&__item {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}

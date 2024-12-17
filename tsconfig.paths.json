@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"api/*": ["api/*"],
+			"assets/*": ["assets/*"],
+			"components/*": ["components/*"],
+			"hooks/*": ["hooks/*"],
+			"services/*": ["services/*"],
+			"tools/*": ["tools/*"],
+			"pages/*": ["pages/*"],
+			"redux/*": ["redux/*"],
+			"constant/*": ["constant/*"],
+			"types/*": ["types/*"],
+			"context/*": ["context/*"],
+			"utils/*": ["utils/*"],
+			"theme/*": ["theme/*"]
+		}
+	}
+}

@@ -1,0 +1,30 @@
+.ticket-detail-card {
+	border-radius: 5px;
+	background-color: white;
+}
+.ticket-detail-card__ticket-number {
+	color: #808285;
+	background-color: #f8f8f8;
+	margin-top: -17px;
+	font-size: 12px;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.ticket-detail-card__share {
+	border: 1px solid #c9c9c9;
+	border-radius: 5px;
+	padding: 7.5px;
+	display: flex;
+	margin-right: auto;
+	margin-top: -5px;
+}
+.ticket-detail-card__separator {
+	border: 1px solid #c9c9c9;
+	height: 20px;
+	margin-top: 3px;
+}
+.ticket-detail-card__image {
+	width: 150px;
+	height: 150px;
+	margin: auto auto 20px;
+}

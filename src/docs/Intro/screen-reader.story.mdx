@@ -1,0 +1,43 @@
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="Acceptability/Screen Reader" />
+
+# Screen Reader
+
+We need to support it in our apps for `Visually impaired people`
+
+---
+
+### Implementation phase
+
+1. Set the `lang` attribute in `index.html` to `fa`
+
+```html
+<html lang="fa"></html>
+```
+
+2. You don't need to change your html `except for custom elements`.
+
+```html
+<p>متن مورد نظر</p>
+```
+
+If so, add the `aria-label` attribute to your custom element.
+
+```html
+<button aria-label="می توانید شهر را انتخاب کنید">انتخاب شهر</button>
+```
+
+---
+
+### Testing on real device (Android)
+
+1. Install [eSpeak NG](https://play.google.com/store/apps/details?id=com.redzoc.ramees.tts.espeak&hl=en&gl=US) for talkback
+2. Select `eSpeak` as your default engine for talk back from:
+
+```text
+Settings > Accessibility > Talkback > Settings > Text-to-speech settings > Preferred engine > select eSpeak NG
+```
+
+3. Enable [Talkback](https://support.google.com/accessibility/android/answer/6283677?hl=en) (or install it if your phone is not has it by default)
+4. For test on desktop visit [persian-espeak](https://chrome.google.com/webstore/detail/persian-espeak/fnbfedemccfdngpmeppjkkiglilfaifh) extension for Chrome

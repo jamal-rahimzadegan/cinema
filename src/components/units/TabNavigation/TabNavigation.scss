@@ -1,0 +1,12 @@
+.tab-navigation-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #3a3b3d;
+}
+.tab-navigation-wrapper__item {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.tab-navigation-wrapper__item--active {
+	border-bottom: 3px solid white;
+}

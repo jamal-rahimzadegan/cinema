@@ -1,0 +1,153 @@
+.input-container {
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 5px;
+	height: 40px;
+	font-size: 14px;
+	padding: 5px;
+	position: relative;
+}
+.input-container--remove-bottom-radius {
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+.input-container__name {
+	width: 100px;
+	text-align: right;
+	line-height: 35px;
+	display: flex;
+	position: relative;
+	//padding: 5px;
+}
+.input-container__input {
+	position: relative;
+	width: calc(100% - 100px);
+}
+.remove-icon {
+	margin-left: 0;
+	position: absolute;
+	left: 5px;
+	top: 12px;
+}
+.input {
+	border: 0;
+	text-align: center;
+	line-height: 35px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: inherit;
+	-webkit-appearance: none;
+	&:focus {
+		outline: none;
+	}
+}
+.input--textarea {
+	text-align: right;
+	height: 100px;
+}
+.input-container--with-border {
+	border: 1px solid #f0f0f0;
+	border-radius: 5px;
+}
+.input-container__input--solid {
+	width: 100%;
+	position: relative;
+}
+.input-container__clear-icon {
+	position: absolute;
+	top: 10px;
+	z-index: 1;
+}
+.input-container__clear-icon--right {
+	left: 0;
+}
+.input-container__clear-icon--left {
+	right: 0;
+}
+.input-container__disable-wrapper {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-color: rgba(138, 138, 138, 0.7);
+}
+.input-container__input--direction-right {
+	direction: rtl;
+}
+.input-container__input--direction-left {
+	direction: ltr;
+}
+.select-wrapper {
+	height: 100%;
+}
+.select-wrapper__option-wrapper {
+	height: 100%;
+	display: flex;
+}
+.select-wrapper__option-wrapper__value {
+	width: calc(100% - 20px);
+	height: 100%;
+	line-height: 35px;
+}
+.select-wrapper__option-wrapper__icon {
+	width: 20px;
+	margin-top: 17px;
+}
+.input-container__options {
+	width: 100%;
+	color: #333333;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	overflow: hidden;
+	max-height: 500px;
+	transition: max-height 0.25s ease-in;
+}
+.input-container__options--hidden {
+	max-height: 0;
+}
+.input-container__options__item {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid lightgrey;
+}
+.input-container--area {
+	height: auto;
+	text-align: right;
+}
+.input-container__read-only-wrapper {
+	background-color: transparent;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+}
+.hide-password {
+	-webkit-text-security: disc;
+	font-family: "iransans";
+}
+.input-container__input__original-select {
+	width: 100%;
+	border: none;
+	height: 100%;
+	font-family: Iranyekan;
+	font-size: 12px;
+	background: transparent;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-align: center;
+	text-align-last: center;
+}
+.input-container__input__original-select:focus {
+	outline: none;
+}
+.input-container__input__arrow {
+	position: absolute;
+	top: 17px;
+	left: 10px;
+}
+::placeholder {
+	font-family: Iranyekan;
+}

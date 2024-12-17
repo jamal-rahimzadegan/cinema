@@ -1,0 +1,33 @@
+.step-bar {
+	width: 100%;
+	padding: 0;
+	margin: 10px 0;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+
+	&__progress-bar {
+		height: 2px;
+		background-color: #212121; // color of line when it is not passed
+		position: absolute;
+		z-index: 10;
+		top: 50%;
+		transform: translateY(-50%);
+		overflow: hidden;
+	}
+
+	&__progress {
+		height: 100%;
+		background-color: #ffffff; // color of line when it is passed
+		transition: width 0.3s ease;
+	}
+
+	&__item {
+		display: flex;
+		flex: 1;
+		list-style: none;
+		align-items: center;
+		justify-content: center;
+		z-index: 11;
+	}
+}

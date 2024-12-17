@@ -1,0 +1,32 @@
+@import "src/assets/styles/global/variables";
+
+.film-item {
+	margin-bottom: 20px;
+	padding: 3px;
+	min-width: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	&__failed {
+		background: $dark-bg;
+		object-fit: contain;
+		width: 95%;
+	}
+
+	img {
+		min-height: 149px;
+		height: 149px;
+		object-fit: cover;
+		border-radius: $m-radius;
+		box-shadow: $shadow;
+		margin-bottom: 7px;
+	}
+
+	&__title {
+		white-space: pre-wrap; /* CSS3 */
+		white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+		white-space: -o-pre-wrap; /* Opera 7 */
+		word-wrap: break-word; /* Internet Explorer 5.5+ */
+	}
+}

@@ -1,0 +1,38 @@
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="Services/Sentry" />
+
+# Sentry
+
+---
+
+Sentry enables automatic reporting of errors and exceptions. For more information visit the [Documentation]("https://docs.sentry.io/").
+
+### Install & Configure
+
+You need to install `@sentry/browser` from [sentry/browser]("https://www.npmjs.com/package/@sentry/browser").
+
+Configuration should happen as early as possible in your application, and you need to initiate it.
+
+The best place for initiating is inside the `index.js`
+
+---
+
+#### How To Initiate?
+
+Get the `DSN` from: `Sentry Dashboard > Settings > Client Keys (DSN)`, and then use it when you initiate Sentry like below:
+
+-   Better to store `DSNs` inside the `.env` files.
+
+```js
+import * as Sentry from "@sentry/browser";
+
+Sentry.init({
+	dsn: "", // DSN value from sentry dashboard (client keys)
+});
+```
+
+---
+
+**Note:**
+The installed version of Sentry inside the project must be the same as the server version.

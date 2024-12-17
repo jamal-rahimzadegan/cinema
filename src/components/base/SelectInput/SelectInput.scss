@@ -1,0 +1,36 @@
+.select-input {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	border-radius: 10px;
+	color: #333333;
+	height: 40px;
+	font-size: 14px;
+	padding: 5px;
+	position: relative;
+}
+
+.select-input__input__original-select {
+	width: 100%;
+	border: none;
+	height: 100%;
+	font-family: Iranyekan;
+	font-size: 12px;
+	background: transparent;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	text-align: center;
+	text-align-last: center;
+}
+.select-input__input__original-select:focus {
+	outline: none;
+}
+.select-input__input__arrow {
+	position: absolute;
+	top: 23px;
+	left: 10px;
+}
+::placeholder {
+	font-family: Iranyekan;
+}

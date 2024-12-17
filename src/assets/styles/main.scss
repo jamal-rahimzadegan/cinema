@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "global/variables";
+@import "global/base";
+@import "global/fonts";
+@import "global/fonts_en";
+@import "components/home";
+@import "components/search-bar";

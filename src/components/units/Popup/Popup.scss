@@ -1,0 +1,48 @@
+@import "src/assets/styles/global/variables";
+
+.popup-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	background-color: $modal-bg;
+	z-index: 2000;
+}
+.popup-container__box {
+	border-radius: 3px;
+	min-width: 300px;
+	color: $black;
+	text-align: center;
+	background-color: white;
+}
+
+.popup-container__box__inputs {
+	background-color: #e5e5e5;
+	text-align: center;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	overflow: hidden;
+}
+.popup-container__box__inputs__accept {
+	width: 50%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.popup-container__box__inputs__accept--full-width {
+	width: 100%;
+}
+.popup-container__box__inputs__accept--accent {
+	background-color: #009777;
+	color: white;
+}
+.popup-container__box__inputs__close {
+	width: 50%;
+	color: white;
+	background-color: rgba(242, 67, 46, 1);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}

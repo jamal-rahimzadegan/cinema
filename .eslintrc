@@ -1,0 +1,12 @@
+{
+	"rules": {
+		"sort-imports": "off"
+	},
+	"parserOptions": {
+		"sourceType": "module",
+		"ecmaVersion": "latest",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	}
+}

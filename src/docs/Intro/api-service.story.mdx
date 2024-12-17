@@ -1,0 +1,29 @@
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="Services/Api" />
+
+# API Service
+
+---
+
+This service has written using `axios` without any other libs.
+
+## Usage:
+
+#### Post Requests:
+
+```js
+const response = await httpClient.post("YOUR_END_POINT", { data: { foo: bar } });
+```
+
+#### Get Requests:
+
+```js
+const response = yield httpClient.get("YOUR_END_POINT")
+```
+
+**Note**
+We are moving the apis to react-query, please consider reading its documentation.
+
+**Note**
+You need to use `yield` instead of `await` in Generator functions like `Sagas`

@@ -1,0 +1,35 @@
+import { Meta } from "@storybook/addon-docs";
+
+<Meta title="Tools/storage" />
+
+[//]: # '<Meta title="Storage Tools" id="Storage Tools" />'
+
+# Storage Tools
+
+---
+
+It is a wrapper for working easier with `localStorage` and `sessionStorage`
+
+## Usage:
+
+#### Set
+
+```js
+import { ls } from "tools";
+
+ls.set("token", "TOKEN_VALUE");
+```
+
+#### Get
+
+```js
+ls.get("token"); // TOKEN_VALUE
+```
+
+**Note**
+You can save any data like array and object without using `JSON` methods.
+
+```js
+ls.set("user", { age: "120" });
+ls.get("user"); //  { age: "120" }
+```

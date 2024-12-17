@@ -1,0 +1,59 @@
+.submit-button-container {
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: rgba(242, 67, 46, 1);
+	line-height: 56px;
+	color: white;
+	z-index: 1000000;
+}
+.submit-button-container--fixed {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+.submit-button-container--confirm {
+	background-color: #cccccc;
+	color: black;
+	line-height: 45px;
+	font-weight: bold;
+	border: inherit;
+}
+.submit-button-container--accent {
+	background-color: #009777;
+	line-height: 20px;
+	border-radius: 5px;
+	padding: 10px;
+}
+.submit-button-container--warn {
+	background-color: #ea7e00;
+	line-height: 20px;
+	border-radius: 5px;
+	padding: 10px;
+}
+.submit-button-container--disabled {
+	background-color: #cbcbcb;
+}
+.submit-button-container--radius-bottom {
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.submit-button-container--unraised {
+	background-color: transparent;
+	line-height: 20px;
+	border-radius: 5px;
+	border: 1px solid #009777;
+	color: #009777;
+}
+.submit-button-container--medium-font {
+	font-size: 14px;
+}
+.submit-button-container--small-font {
+	font-size: 12px;
+}
+.submit-button-container--is-radius {
+	border-radius: 5px;
+}
+.submit-button-container--zindex-more-than-action-sheet {
+	z-index: 1000002;
+}
