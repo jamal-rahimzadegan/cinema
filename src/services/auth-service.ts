@@ -16,6 +16,7 @@ class AuthService {
 	}
 
 	storeToken() {
+		// NOTE: replace ls with real and secure storage
 		const { search } = window.location;
 		let token: string = getQueryParams(search)?.token || "";
 
