@@ -12,7 +12,7 @@ export default function useReactQuery<R>(...payload: QueryPayload<R>): UseQueryR
 	const [queryKey, fetchData, options] = payload;
 
 	return useQuery<R, Error>(queryKey, fetchData, {
-		staleTime: 1_000, // cache time
+		staleTime: 1_000, // make it dynamic based on your needs
 		retry: false,
 		...options,
 	});
